@@ -1,0 +1,21 @@
+{
+  "name": "@app/backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "moleculer-runner --env --repl --hot services --mask **/*.service.js",
+    "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "moleculer": "^0.14.14",
+    "moleculer-web": "^0.10.0"
+  },
+  "devDependencies": {
+    "ioredis": "^4.27.6",
+    "moleculer-repl": "^0.6.6"
+  }
+}

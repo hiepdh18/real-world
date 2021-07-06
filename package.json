@@ -1,0 +1,15 @@
+{
+  "name": "real-world",
+  "version": "1.0.0",
+  "description": "real world paractice, a medium clone web-app for sharing articles.",
+  "main": "index.js",
+  "repository": "https://github.com/hiepdh18/real-world.git",
+  "author": "hiepdh",
+  "license": "MIT",
+  "private": true,
+  "workspaces":{
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
